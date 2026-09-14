@@ -13,13 +13,11 @@ export default function Navbar() {
           <a href="#perkenalan" className="transition hover:text-[#1f1610]">Perkenalan</a>
           <a href="#karya" className="transition hover:text-[#1f1610]">Karya</a>
           <a href="#sertifikat" className="transition hover:text-[#1f1610]">Sertifikat</a>
-          <a href="#skills" className="transition hover:text-[#1f1610]">Skills</a>
-          <a href="#testimoni" className="transition hover:text-[#1f1610]">Testimoni</a>
           <a href="#kontak" className="transition hover:text-[#1f1610]">Kontak</a>
         </nav>
 
         <div className="text-sm font-semibold uppercase tracking-[0.24em] text-[#3f332b]">
-          ADMIN
+         <a href="admin">admin</a>
         </div>
       </div>
     </header>
